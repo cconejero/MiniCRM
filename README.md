@@ -1,4 +1,4 @@
-![Mini CRM](https://raw.githubusercontent.com/cconejero/MiniCRM/master/storage/app/public/images/minicrm.png)
+![Mini CRM](https://raw.githubusercontent.com/cconejero/MiniCRM/master/public/minicrm.png)
 # Mini CRM:
 A minimal CRM project to demonstrate:
 - MVC
