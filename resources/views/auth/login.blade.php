@@ -2,7 +2,7 @@
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <img src="{{ asset('storage/images/minicrm.png') }}" alt="Mini CRM Logo" class="w-20">
+                <img src="{{ asset('minicrm.png') }}" alt="Mini CRM Logo" class="w-20">
             </a>
         </x-slot>
 
