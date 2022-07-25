@@ -26,7 +26,7 @@ cp .env.example .env
 composer install
 npm install
 php artisan storage:link
-vite build
+npm run build
 php artisan migrate:fresh --seed
 ```
 
