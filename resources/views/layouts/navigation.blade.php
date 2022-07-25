@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('company.index') }}">
-                        <img src="{{ asset('storage/images/minicrm.png') }}" alt="Mini CRM Logo" class="w-20">
+                        <img src="{{ asset('minicrm.png') }}" alt="Mini CRM Logo" class="w-20">
                     </a>
                 </div>
 

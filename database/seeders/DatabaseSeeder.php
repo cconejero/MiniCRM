@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
         $cocaCola = Company::factory()->create([
             'name' => 'Coca Cola',
             'email' => 'admin@coca-cola.com',
-            'logo' => 'images/1.png',
+            'logo' => '1.png',
             'website' => 'www.coca-cola.com',
         ]);
 
@@ -40,7 +40,7 @@ class DatabaseSeeder extends Seeder
         $walmart = Company::factory()->create([
             'name' => 'Walmart',
             'email' => 'admin@walmart.com',
-            'logo' => 'images/2.jpg',
+            'logo' => '2.jpg',
             'website' => 'www.walmart.com',
         ]);
 
@@ -51,7 +51,7 @@ class DatabaseSeeder extends Seeder
         $amazon = Company::factory()->create([
             'name' => 'Amazon',
             'email' => 'admin@amazon.com',
-            'logo' => 'images/3.png',
+            'logo' => '3.png',
             'website' => 'www.amazon.com',
         ]);
 
@@ -62,7 +62,7 @@ class DatabaseSeeder extends Seeder
         $apple = Company::factory()->create([
             'name' => 'Apple',
             'email' => 'admin@apple.com',
-            'logo' => 'images/4.png',
+            'logo' => '4.png',
             'website' => 'www.apple.com',
         ]);
 
@@ -73,7 +73,7 @@ class DatabaseSeeder extends Seeder
         $cvs = Company::factory()->create([
             'name' => 'CVS Health Corp',
             'email' => 'admin@cvs.com',
-            'logo' => 'images/5.png',
+            'logo' => '5.png',
             'website' => 'www.cvs.com',
         ]);
 
@@ -84,7 +84,7 @@ class DatabaseSeeder extends Seeder
         $shell = Company::factory()->create([
             'name' => 'Royal Dutch Shell',
             'email' => 'admin@shell.com',
-            'logo' => 'images/6.svg',
+            'logo' => '6.svg',
             'website' => 'www.shell.com',
         ]);
 
@@ -95,7 +95,7 @@ class DatabaseSeeder extends Seeder
         $bhhs = Company::factory()->create([
             'name' => 'Berkshire Hathaway Home Services',
             'email' => 'admin@bhhs.com',
-            'logo' => 'images/7.png',
+            'logo' => '7.png',
             'website' => 'www.bhhs.com',
         ]);
 

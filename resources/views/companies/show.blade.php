@@ -13,7 +13,7 @@
     <div class="-mx-3">
         <x-description.description alt="{{ $company->name }} Logo"
                                    :delete_action="$company->path()"
-                                   src="{{ asset('storage/' . $company->logo) }}"
+                                   src="{{ asset($company->logo) }}"
                                    title="{{ $company->name }}">
 
             <x-description.row class="bg-gray-50">

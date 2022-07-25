@@ -23,7 +23,7 @@ class CompanyController extends Controller
         $attributes = $this->validateCompany();
 
         if ($attributes['logo'] ?? false) {
-            $attributes['logo'] = request()->file('logo')->store('logos');
+            $attributes['logo'] = 'storage/' . request()->file('logo')->store('logos');
         }
 
         $company = Company::create($attributes);
@@ -46,7 +46,7 @@ class CompanyController extends Controller
         $attributes = $this->validateCompany();
 
         if ($attributes['logo'] ?? false) {
-            $attributes['logo'] = request()->file('logo')->store('logos');
+            $attributes['logo'] = 'storage/' . request()->file('logo')->store('logos');
         }
 
         $company->update($attributes);

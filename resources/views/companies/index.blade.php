@@ -10,7 +10,7 @@
         @forelse($companies as $company)
             <div class="w-full px-3 pb-6">
                 <x-card.card>
-                    <x-card.image src="{{ asset('storage/' . $company->logo) }}" alt="{{ $company->name }} Logo" />
+                    <x-card.image src="{{ asset($company->logo) }}" alt="{{ $company->name }} Logo" />
                     <x-card.title :href="$company->path()">
                         {{ $company->name }}
                     </x-card.title>
