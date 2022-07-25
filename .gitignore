@@ -16,5 +16,7 @@ yarn-error.log
 /.vscode
 
 # Project exclude paths
-/storage/app/
+/storage/app/public/logos
 /storage/framework/
+/storage/app/public/.gitignore
+/storage/app/.gitignore
